@@ -9,7 +9,7 @@ BAR = "bar"
 
 class BasicTest(TestCase):
     '''
-    Tests the basic functionality
+    Tests the basic object creation functionality
     '''
 
     def setUp(self) -> None:
