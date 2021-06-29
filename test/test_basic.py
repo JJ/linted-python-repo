@@ -2,7 +2,7 @@
 Very basic module to test infrastructure
 '''
 from unittest import TestCase
-from foo import Foo
+from fuu import Foo
 
 BAR = "bar"
 
