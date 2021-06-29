@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - "**/*.py"
+      - "pyproject.toml"
+      - "poetry.lock"
   pull_request:
     paths:
       - "**/*.py"
