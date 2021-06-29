@@ -21,3 +21,4 @@ class BasicTest(TestCase):
         '''
         assert self.to_test.args() == ()
         assert Foo(BAR).args() == (BAR,)
+        assert Foo(BAR).first_arg() == BAR

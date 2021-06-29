@@ -16,3 +16,9 @@ class Foo:
         getter function
         '''
         return self._args
+
+    def first_arg(self):
+        '''
+        Possibly we're only interested in this
+        '''
+        return self._args[0]
