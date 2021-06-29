@@ -1,3 +1,6 @@
 class Foo:
     def __init__(self, *args):
-        self.args = args
+        self._args = args
+
+    def args(self):
+        return self._args

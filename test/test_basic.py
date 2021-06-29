@@ -6,4 +6,5 @@ BAR = "bar"
 
 class BasicTest(TestCase):
     def test_different_args(self):
-        assert(Foo(BAR).args == BAR)
+        print(Foo(BAR))
+        assert(Foo(BAR).args() == (BAR,))
